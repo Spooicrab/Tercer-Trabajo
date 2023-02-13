@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.nav-link, .active {
+  color: #E3D26F; }
+
+body {
+  background-color: #CA895F; }

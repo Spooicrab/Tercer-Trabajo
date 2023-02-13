@@ -1,0 +1,20 @@
+$color1:#4C191B;
+$color2:#E3D26F;
+$color3:#CA895F;
+$color4:#545F66;
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+ }
+
+
+.nav-link, .active{
+
+    color:$color2;
+} 
+body{
+    background-color: $color3;
+}
+
