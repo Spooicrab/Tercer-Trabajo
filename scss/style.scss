@@ -9,12 +9,75 @@ $color4:#545F66;
     box-sizing: border-box
  }
 
-
-.nav-link, .active{
-
-    color:$color2;
-} 
-body{
+ body{
     background-color: $color3;
 }
 
+nav{
+.nav-link{
+
+    color:$color2;
+} 
+}
+.dropdown{
+    color:$color2;
+
+}
+/*.Titulo {
+    min-height: 45vh;
+    background-image: url(../assets/A/titulo.jpg); 
+    background-size: cover;
+    background-position: center;      
+  
+&:before{
+    content: "degradado";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background: linear-gradient(90deg,$color4 , #000);
+  }
+}*/
+.Titulo__section {
+  position: relative;
+  height: 45vh;
+  min-height: 45vh;
+    background-image: url(../assets/A/titulo.jpg); 
+    background-size: cover;
+    background-position: center;     
+    display: flex;
+    align-items: center;
+
+
+   &:before{
+
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient($color4 20% , #001 80%);
+    opacity: 85%;
+    }
+    /*img {
+        display: block;
+        size: cover;
+        width: 100%;
+        height:100%;
+        z-index: -1;
+    
+      }*/
+    h1{
+        text-align: center;
+        color: #fff;
+        background-clip: content-box;
+    }
+/*No puedo hacer que el h1 no se vea afectado por la opacity del degradado*/
+}
+
+
+
+
+ 

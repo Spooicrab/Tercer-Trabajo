@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
         <div class="container-fluid"  style="background-color: #4C191B;">
             <img src="./assets/Logo/icono-carpinteria.png" alt="Bootstrap" width="35px" height="35px">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,17 +22,20 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                   </li>
+                  
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Productos
                     </a>
-                    <!-- no anda el dropdown-->>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -40,16 +43,18 @@
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </div>
-        </div>
-    </nav>
-
+            </div>
+          </nav>
 
 </header>
 <body>
-    <div class="Titulo container-fluid">  </div>
-
-    
-
+  <section class="Titulo__section">
+     <div class="Titulo container-fluid">  
+        <!--<img src="./assets/A/titulo.jpg" alt="Carpinteria"> -->
+        <h1>Carpinteria</h1>
+      </div>
+  
+</section>
 
 
 
@@ -72,7 +77,8 @@
 
 
 </footer>
-<script src="./js/bootstrap.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

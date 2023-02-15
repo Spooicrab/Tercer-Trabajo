@@ -4,19 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1","build-css": 
-    "node-sass --include-path scss scss/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Spooicrab/Tercer-Trabajo.git"
-      
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Spooicrab/Tercer-Trabajo/issues"
   },
-  "homepage": "https://github.com/Spooicrab/Tercer-Trabajo#readme"
+  "homepage": "https://github.com/Spooicrab/Tercer-Trabajo#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.58.1"
+  }
 }
