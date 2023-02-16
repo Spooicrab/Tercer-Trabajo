@@ -63,14 +63,13 @@ nav .nav-link {
     font-family: 'Black Ops One', cursive; }
 
 .Nosotros {
-  display: flex;
-  align-content: space-around; }
+  width: 100vw; }
   .Nosotros div {
-    width: 32vw;
+    width: 28%;
     background-color: #545F66;
     height: 35vh;
     border: #000 solid 2px;
-    margin: 4px; }
+    margin: 2px; }
     .Nosotros div p {
       font-family: 'Sriracha', cursive;
       justify-content: center;
