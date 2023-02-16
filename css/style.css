@@ -31,7 +31,6 @@ nav .nav-link {
 .Titulo__section {
   position: relative;
   height: 45vh;
-  min-height: 45vh;
   background-image: url(../assets/A/titulo.jpg);
   background-size: cover;
   background-position: center;
@@ -63,7 +62,7 @@ nav .nav-link {
     font-family: 'Black Ops One', cursive; }
 
 .Nosotros {
-  width: 100vw; }
+  width: 100%; }
   .Nosotros div {
     width: 28%;
     background-color: #545F66;
@@ -76,20 +75,54 @@ nav .nav-link {
       font-size: 16px; }
       @media screen and (min-width: 768px) {
         .Nosotros div p {
-          font-size: 18px; } }
+          font-size: 14px; } }
       @media screen and (min-width: 1024px) {
         .Nosotros div p {
-          font-size: 20px; } }
+          font-size: 18px; } }
     .Nosotros div h2 {
       font-family: 'Oswald', sans-serif;
       padding-top: 10%;
       font-size: 20px; }
       @media screen and (min-width: 768px) {
         .Nosotros div h2 {
-          font-size: 18px; } }
+          font-size: 14px; } }
       @media screen and (min-width: 1024px) {
         .Nosotros div h2 {
-          font-size: 24px; } }
+          font-size: 20px; } }
   .Nosotros img {
     height: 100%;
     width: 100%; }
+
+.carousel__ {
+  height: 40vh;
+  margin-top: 5%; }
+  @media screen and (min-width: 600px) {
+    .carousel__ {
+      display: flex;
+      margin-top: 10px; } }
+  .carousel__ .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0; }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .container .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      footer .container .row .col-xs-12 {
+        width: 100%; }
+      footer .container .row .col-sm-6 {
+        width: 50%; }
+  @media only screen and (max-width: 768px) {
+    footer .container .row {
+      flex-direction: column; }
+      footer .container .row .col-xs-12, footer .container .row .col-sm-6 {
+        width: 100%; } }
