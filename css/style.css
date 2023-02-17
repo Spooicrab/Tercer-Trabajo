@@ -94,20 +94,23 @@ nav .nav-link {
     width: 100%; }
 
 .carousel__ {
-  height: 40vh;
   margin-top: 5%; }
   @media screen and (min-width: 600px) {
     .carousel__ {
       display: flex;
-      margin-top: 10px; } }
+      justify-content: center;
+      margin-top: 10px;
+      width: auto;
+      height: auto; } }
   .carousel__ .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px; }
 
 footer {
+  margin-top: 50px;
   background-color: #333;
   color: #fff;
-  padding: 20px 0; }
+  padding: 20px; }
   footer .container {
     display: flex;
     justify-content: space-between;
