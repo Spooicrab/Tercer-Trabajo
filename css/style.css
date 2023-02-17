@@ -100,11 +100,12 @@ nav .nav-link {
       display: flex;
       justify-content: center;
       margin-top: 10px;
-      width: auto;
-      height: auto; } }
+      width: auto; } }
   .carousel__ .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px; }
+  .carousel__ .carousel-item img {
+    height: 75%; }
 
 footer {
   margin-top: 50px;
@@ -129,3 +130,12 @@ footer {
       flex-direction: column; }
       footer .container .row .col-xs-12, footer .container .row .col-sm-6 {
         width: 100%; } }
+
+.contacto {
+  padding-left: 50px;
+  border: #4C191B solid 5px;
+  margin-top: 50px; }
+  .contacto .contacto__container {
+    height: auto; }
+  .contacto .contacto__icon {
+    width: 20%; }

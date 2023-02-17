@@ -133,13 +133,16 @@ img{
     justify-content: center;
     margin-top: 10px;
     width: auto;
-    height: auto
   }
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
   }
-  
+  .carousel-item{
+    img{
+    height: 75%;
+  }
+  }
 }
 footer {
   margin-top: 50px;
@@ -180,3 +183,22 @@ footer {
     }
   }
 }
+
+.contacto{
+
+  padding-left: 50px;
+  border: $color1 solid 5px;
+  margin-top: 50px;
+  .contacto__container{
+
+    height: auto;
+    
+    
+    }
+  .contacto__icon{
+
+    width: 20%;
+  
+  }}
+
+
