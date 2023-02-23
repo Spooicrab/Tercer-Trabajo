@@ -57,9 +57,17 @@ nav{
 .Nosotros{
   width: 100%;
   display: flex; 
-  justify-content: center;
+  justify-content: space-around;
+  @media (max-width: 768px) {
+    
+    flex-direction: column;
+    .Nosotros div{
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
    div{
-  width: 28%;
   background-color: $color4;
   height: 35vh;
   border: #000 solid 2px;
@@ -175,4 +183,12 @@ footer {
   height: 70%;
   width: 100%;
 }
+}
+.error{
+  width: 100vw;
+  height: 50vh;
+  h1{
+    height: 30vh;
+
+  }
 }

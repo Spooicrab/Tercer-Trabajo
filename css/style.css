@@ -40,9 +40,15 @@ nav .nav-link {
 .Nosotros {
   width: 100%;
   display: flex;
-  justify-content: center; }
+  justify-content: space-around; }
+  @media (max-width: 768px) {
+    .Nosotros {
+      flex-direction: column; }
+      .Nosotros .Nosotros div {
+        display: flex;
+        align-items: center;
+        width: 100%; } }
   .Nosotros div {
-    width: 28%;
     background-color: #545F66;
     height: 35vh;
     border: #000 solid 2px;
@@ -129,3 +135,9 @@ footer {
   .Blog .blog__video iframe {
     height: 70%;
     width: 100%; }
+
+.error {
+  width: 100vw;
+  height: 50vh; }
+  .error h1 {
+    height: 30vh; }
